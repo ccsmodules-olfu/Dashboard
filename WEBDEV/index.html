@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Portal</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img src="images/ccslogo.png" alt="Logo" class="logo" />
+      </div>
+      <nav class="nav-box">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="selection-container">
+        <select id="year-select">
+          <option value="" disabled selected>Select Year</option>
+          <option value="1st Year">1st Year</option>
+          <option value="2nd Year">2nd Year</option>
+          <option value="3rd Year">3rd Year</option>
+          <option value="4th Year">4th Year</option>
+        </select>
+        <select id="course-select">
+          <option value="" disabled selected>Select Course</option>
+          <option value="BSCS">BSCS</option>
+          <option value="BSIT">BSIT</option>
+          <option value="BSEMC">BSEMC</option>
+        </select>
+        <select id="semester-select">
+          <option value="" disabled selected>Select Semester</option>
+          <option value="1st">1st</option>
+          <option value="2nd">2nd</option>
+        </select>
+        <button class="go-button">Go</button>
+      </div>
+      <div class="search-container">
+        <input type="text" placeholder="Search Subject..." class="search-bar" />
+        <button class="search-button">Search</button>
+      </div>
+    </header>
+    <main class="content"></main>
+  </body>
+</html>
