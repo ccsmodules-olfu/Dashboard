@@ -112,3 +112,27 @@ body {
 .search-button:hover {
   background-color: #d00e12;
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+    min-height: 80px;
+  }
+
+  .nav-box {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .selection-container {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search-container {
+    width: 100%;
+    justify-content: center;
+  }
+}
