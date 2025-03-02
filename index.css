@@ -136,3 +136,46 @@ body {
     justify-content: center;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+    min-height: 120px;
+    width: 100vw;
+    background-color: #be151e !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-box {
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .selection-container {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    max-width: 100px;
+  }
+}
